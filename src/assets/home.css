@@ -1,0 +1,98 @@
+/* Container for the home page */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+/* Container for the home page */
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 20px; /* Space between the two columns */
+    margin-top: 90px;
+    margin-bottom: 80px;
+  }
+  
+  /* Left: Slideshow container */
+  .slideshow-container {
+    flex: 1;
+    max-width: 50%; /* Slideshow will take 50% of the page */
+    height: 400px; /* Set a fixed height for the slideshow */
+    overflow: hidden; /* Hide any overflow content */
+    border-radius: 10px;
+    margin-top: 80px;
+  }
+  
+  .slideshow-image {
+    width: 100%;
+    height: 100%; /* Ensure the image fills the container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  
+  /* Right: Welcome and News */
+  .right-content {
+    flex: 1;
+    max-width: 50%; /* Welcome/News will take 50% of the page */
+  }
+  
+  /* Hero Section (Welcome) */
+  .hero-section {
+    background: #e6f7ff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .hero-section h1 {
+    color: #003366;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-section p {
+    color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #0055cc;
+  }
+  
+  /* News Section */
+  .news-section {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .news-section h2 {
+    color: #003366;
+    margin-bottom: 15px;
+  }
+  
+  .news-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .news-section ul li {
+    background: #e6f7ff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  

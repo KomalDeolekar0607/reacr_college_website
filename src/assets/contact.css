@@ -1,0 +1,121 @@
+/* Container for the contact page */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+.contact-container {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between; /* Space between form and details */
+    align-items: center; /* Align items to the top */
+    padding: 50px 20px;
+    background-color: #f4f4f9;
+    min-height: 100vh; /* Full height for the container */
+    gap: 250px;
+  }
+  
+  /* Contact details section (right side) */
+  .contact-details {
+    flex: 1; /* Take up equal space */
+    margin-left: 150px; /* Add space between the form and details */
+    text-align: left;
+  }
+  
+  .contact-details h1 {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 20px;
+  }
+  
+  .contact-details p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .contact-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-details ul li {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* Contact form section (left side) */
+  .contact-form-container {
+    flex: 1; /* Take up equal space */
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 500px;
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  .contact-form-container h2 {
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+    height: 150px;
+  }
+  
+  .contact-form button {
+    background-color: #003366;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0055cc;
+  }
+  
+  /* Responsive layout for smaller screens */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column; /* Stack form and details vertically on smaller screens */
+      align-items: center; /* Center them horizontally */
+    }
+  
+    .contact-form-container,
+    .contact-details {
+      width: 100%; /* Make both sections take full width on small screens */
+      margin: 0; /* Reset any margins */
+    }
+  }
+  

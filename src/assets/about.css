@@ -1,0 +1,42 @@
+/* About Page Styles */
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Container for the whole page */
+.about-container {
+    margin-top: 200px;
+    margin-bottom: 80px;
+  }
+  
+  /* Full-width Image */
+  .about-image-container {
+    width: 100%;
+  }
+  
+  .about-image {
+    width: 90%;
+    margin-left: 5%;
+    height: 400px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image covers the full area without distortion */
+  }
+  
+  /* Text content below the image */
+  .about-content {
+    padding: 40px 60px;
+    text-align: center;
+  }
+  
+  .about-content h1 {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  

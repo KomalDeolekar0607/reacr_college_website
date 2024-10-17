@@ -1,0 +1,29 @@
+
+* Footer Styles */
+.footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%; /* Full width */
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer ul li {
+  margin: 0 15px;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}

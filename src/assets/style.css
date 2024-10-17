@@ -1,0 +1,207 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and html settings */
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding-top: 60px; /* Adjusted for fixed navbar */
+}
+
+/* Full-width container */
+.full-width {
+  width: 100%;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003366;
+  padding: 10px 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Home Page Styles */
+.home {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.hero-section {
+  background: #e6f7ff;
+  padding: 50px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.hero-section h1 {
+  color: #003366;
+}
+
+.cta-button {
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #0055cc;
+}
+
+.news-section {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.news-section h2 {
+  color: #003366;
+}
+
+.news-section ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.news-section ul li {
+  background: #f0f0f0;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+/* About Page Styles */
+.about {
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+.about h2 {
+  color: #003366;
+}
+
+.about p {
+  color: #666;
+}
+
+/* Departments Page Styles */
+.departments {
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+  
+}
+
+.departments h2 {
+  color: #003366;
+}
+
+.departments ul {
+  list-style: none;
+  padding: 0;
+}
+
+.departments ul li {
+  background: #f0f0f0;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+/* Contact Page Styles */
+.contact {
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+.contact h2 {
+  color: #003366;
+}
+
+.contact p {
+  color: #666;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  navbar, .footer, .home, .about, .departments, .contact {
+    width: 100%;
+    margin: 0 auto; /* Centering */
+    padding: 0;
+}
+  left: 0;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.footer ul li {
+  margin: 0 15px;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
